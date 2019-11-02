@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # Lehmann.Music
-#Bearbeitungszeit: 0.2h
-
-import sys
+# Bearbeitungszeit: 0.2h
 
 print("# celsius\tfahrenheit")
 for t_c in range(1,101):
