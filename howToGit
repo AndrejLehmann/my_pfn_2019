@@ -16,15 +16,15 @@ Repository clonen:
 
 Make changes:
 1. Den Code editieren
-2. git add file_name
-3. git commit -m "Ein Kommentar, der die Ändererungen beschreibt"
-4. git push
+2. $ git add file_name
+3. $ git commit -m "Ein Kommentar, der die Ändererungen beschreibt"
+4. $ git push
 5. Great success !!! Der neue Code ist jetzt für alle in der Repository abgelegt
 
 File hochladen:
-1. git add file_name
-2. git commit -m "file_name hochgeladen"
-3. git push
+1. $ git add file_name
+2. $ git commit -m "file_name hochgeladen"
+3. $ git push
 4. Great success !!! Sie haben file_name hochgeladen
 
 Die neueste Version der Codes runterladen:
