@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Lehmann.Music
-# Bearbeitungszeit = 0.25h
+# Bearbeitungszeit: 0.25h
 
 num1 = 8
 num2 = 8
