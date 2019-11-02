@@ -16,7 +16,7 @@ Repository clonen:
 
 Make changes:
 1. Den Code editieren
-2. $ git add file_name (oder um alle geaenderten Datein zu stagen $ git add --all)
+2. $ git add file_name (oder um alle geaenderten Datein zu stagen: $ git add --all)
 3. $ git commit -m "Ein Kommentar, der die Ändererungen beschreibt"
 4. $ git push
 5. Great success !!! Der neue Code ist jetzt für alle in der Repository abgelegt
