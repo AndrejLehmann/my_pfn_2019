@@ -1,10 +1,10 @@
-git eine Software zur Versionsverwaltung (version control)
+Git ist eine Software zur Versionsverwaltung (version control)
 Die ArbeitsWeise von git kann man sich so vorstellen:
 
--------------------------            |-------------- Staging --------------|             ----------------------------
-| Dateien auf deinem PC |                                                                |   hochgeladene Dateien   | 
-| (lokales Repository)  | -- add --> geaenderte -- commit --> Deteien bereit -- push --> | (gemeinsames Repository) |
-|                       |             Dateien                 zum Hochladen              |                          |
+-------------------------          |------------- Staging -------------|           ----------------------------
+| Dateien auf deinem PC |                                                          |   hochgeladene Dateien   | 
+| (lokales Repository)  | --add--> geaenderte --commit--> Deteien bereit --push--> | (gemeinsames Repository) |
+|                       |           Dateien               zum Hochladen            |                          |
                                                                                          
 
 
