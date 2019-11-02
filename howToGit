@@ -10,22 +10,16 @@ Die ArbeitsWeise von git kann man sich so vorstellen:
 
 Repository clonen:
 1. Auf dem PC ein Ordner erstellen ($ mkdir ordner_name)
-2. Mit Terminal in den Ordner reingehen ($ cd ordner_name)
+2. In den Ordner reingehen ($ cd ordner_name)
 3. $ git clone https://github.com/AndrejLehmann/my_pfn_2019.git
 4. Great success !!! Sie sind ein stolzer Besitzer von der Repository my_pfn_2019
 
 Make changes:
 1. Den Code editieren
-2. $ git add file_name
+2. $ git add file_name (oder um alle geaenderten Datein zu stagen $ git add --all)
 3. $ git commit -m "Ein Kommentar, der die Ändererungen beschreibt"
 4. $ git push
 5. Great success !!! Der neue Code ist jetzt für alle in der Repository abgelegt
-
-File hochladen:
-1. $ git add file_name
-2. $ git commit -m "file_name hochgeladen"
-3. $ git push
-4. Great success !!! Sie haben file_name hochgeladen
 
 Die neueste Version der Codes runterladen:
 1. Im Ordner, wo die Repository ablegt ist: $ git pull
