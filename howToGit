@@ -9,8 +9,8 @@ Die ArbeitsWeise von git kann man sich so vorstellen:
 
 
 Repository clonen:
-1. Auf dem PC ein Ordner erstellen ($ mkdir )
-2. Mit Terminal in den Ordner reingehen ($ cd )
+1. Auf dem PC ein Ordner erstellen ($ mkdir ordner_name)
+2. Mit Terminal in den Ordner reingehen ($ cd ordner_name)
 3. $ git clone https://github.com/AndrejLehmann/my_pfn_2019.git
 4. Great success !!! Sie sind ein stolzer Besitzer von der Repository my_pfn_2019
 
