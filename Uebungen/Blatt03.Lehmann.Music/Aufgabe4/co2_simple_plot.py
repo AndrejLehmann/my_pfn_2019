@@ -35,11 +35,12 @@ data_stream.close()
 
 # make the plot
 
-fig, ax = plt.subplots(figsize=(10,8))
+fig, ax = plt.subplots(figsize=(12,8))
 ax.set_xlabel('Jahr')
-ax.set_ylabel('CO2 Emissionen/Person (t)')
-ax.set_title('Entwicklung der CO2 Emission fuer einige Industrielaender')
+ax.set_ylabel('$CO_2$ Emissionen/Person $(t)$')
+ax.set_title('Entwicklung der $CO_2$ Emission fuer einige Industrielaender')
 ax.set_xticks(jahre)
 for i in range(len(data_lists)):
     ax.plot(jahre, data_lists[i], label=laender[i])
-fig.savefig('plot.pdf')
+ax.legend(loc="upper right", fancybox=True, framealpha=0.5)
+fig.savefig('CO2_plot.pdf')
