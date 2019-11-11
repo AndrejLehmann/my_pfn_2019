@@ -40,6 +40,6 @@ ax.set_xlabel('Jahr')
 ax.set_ylabel('CO2 Emissionen/Person (t)')
 ax.set_title('Entwicklung der CO2 Emission fuer einige Industrielaender')
 ax.set_xticks(jahre)
-for i in range(len(jahre)):
+for i in range(len(data_lists)):
     ax.plot(jahre, data_lists[i], label=laender[i])
 fig.savefig('plot.pdf')
