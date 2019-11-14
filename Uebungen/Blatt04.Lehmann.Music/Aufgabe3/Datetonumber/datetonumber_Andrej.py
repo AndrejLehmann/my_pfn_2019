@@ -26,7 +26,7 @@ for date in dates:
     else:
         leapyear = False
     
-    if leapyear == False:
+    if not leapyear:
         days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     else:
         days = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
