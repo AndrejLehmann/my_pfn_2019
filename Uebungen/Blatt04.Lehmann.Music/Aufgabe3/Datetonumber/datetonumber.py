@@ -15,7 +15,7 @@ except:
     exit(1)
 dates = f.readlines()
 f.close()
-# or sys.argv[1] != r'^\d[.]\d[.]\d$':
+
 
 for date in dates: 
     day, month, year = date.split('.')
