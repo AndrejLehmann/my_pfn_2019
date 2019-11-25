@@ -1,0 +1,15 @@
+Hallo, World!
+Hallo
+[1, 2, 3, 4, 5, 6]
+string represents integer value 1
+a	b	c
+Andreas: 200
+-1
+0
+mydict has the key 'a'
+Text length: 15
+#!/usr/bin/env python3
+regular expression works correctly
+Four was found in list
+Four is not equal to zero
+zero
