@@ -11,8 +11,13 @@ for i in range(a,a+26):
 print(alphabet)
 
 
+def sky(j):
+    if j == 0:
+        return j
+    return sky(j-1)+sky(j)+sky(j-1)
+
 
 # create the skyline string with an recursive function
 for j in range(1,9):
-   # if s[j] = (alphabet[i:],
-    print(s)
+    print('{}'.format(sky(alphabet)))
+
