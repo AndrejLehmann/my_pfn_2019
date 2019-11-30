@@ -25,5 +25,22 @@ except IOError as err:
   sys.stderr.write("{}: {}\n".format(filename, err))
   exit(1)
 
-# add your code here
+for line in stream:
+    words = line.split()
+    if len(words) is 0:              # empty line
+        print()
+    else:
+        l = [words[0]]               #| initialisation with the first word 
+        current_len = len(words[0])  #|
+        for word in words[1:]:
+            #              v-- space char
+            current_len += 1+len(word)
+            if current_len <= linewidth:
+                l.append(word)
+            else:
+                print(' '.join(l))
+                l = [word]
+                current_len = len(word)
+        print(' '.join(l))
+
 stream.close()
