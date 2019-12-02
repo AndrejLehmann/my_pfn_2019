@@ -1,9 +1,9 @@
 #!usr/bin/env python3
 # Harkov.Lehmann.Music
-# Bearbeitungszeit:
+# Bearbeitungszeit: 0.5h
 
 
-# len(s(i)) = 2**i+1
+# len(s(i)) = 2**i-1
 
 def s(i):
     if i == 0:
