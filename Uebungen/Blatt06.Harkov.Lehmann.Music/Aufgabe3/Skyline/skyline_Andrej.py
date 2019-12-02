@@ -3,7 +3,7 @@
 # Bearbeitungszeit: 0.5h
 
 
-# len(s(i)) = 2**i-1
+# len(s(i)) = 2**i-1 with i=1,2,3,...(=IN\{0}=IN*)
 
 def s(i):
     if i == 0:
