@@ -1,0 +1,9 @@
+usage: cigarXevalargparse.py [-h] [-c] [-i] inputfile
+
+positional arguments:
+  inputfile       specify input file
+
+optional arguments:
+  -h, --help      show this help message and exit
+  -c, --cost      show cost for each cigarXstring
+  -i, --identity  show identity for each cigarXstring

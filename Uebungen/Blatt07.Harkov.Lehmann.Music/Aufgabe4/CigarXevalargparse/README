@@ -1,0 +1,9 @@
+Aufgabe: Datei 
+
+cigarXevalargparse_template.py in
+cigarXevalargparse.py
+
+umbenennen und um die Deklaration der Optionen einf"ugen,
+so dass die Ausgabe mit dem Inhalt der Datei
+cigarXevalargparse_out.txt
+"ubereinstimmt.

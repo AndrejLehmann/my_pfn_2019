@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 # Harkov.Lehmann.Music
 # Bearbeitungszeit: 0.5h
 

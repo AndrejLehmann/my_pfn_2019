@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Harkov.Lehmann.Music
-# Bearbeitungszeit: 
+# Bearbeitungszeit: 3.5h
 
 import re, sys
 

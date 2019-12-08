@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # Bearbeitungszeit: 3.5h
+
 import sys
 import numpy as np
 
