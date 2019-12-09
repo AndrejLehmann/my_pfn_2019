@@ -1,0 +1,6 @@
+rmsd(vector1,vector2)=4.41588
+rmsd(vector3,vector4)=20.05341
+rmsd(vector5,vector6)=21.52228
+rmsd(vector7,vector8)=20.85057
+rmsd(vector9,vector10)=16.70118
+rmsd(vector11,vector12)=18.81172
