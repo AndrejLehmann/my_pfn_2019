@@ -1,0 +1,7 @@
+MOLECULE PQQ
+    1 N1
+    2 C2
+    3 C2X
+MOLECULE CLM
+    1 C1
+    2 CL1A

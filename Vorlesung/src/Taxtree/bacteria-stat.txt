@@ -1,0 +1,60 @@
+bacteria.tre contains tree of depth 12 with 10696 branching nodes and 362279 leaves
+%Fields: depth, leaves_of_depth, branchnodes_of_depth
+0	0	1
+1	0	27
+2	56	135
+3	31473	300
+4	2632	699
+5	18705	2987
+6	242746	4569
+7	50498	1501
+8	12339	410
+9	3536	56
+10	208	10
+11	85	1
+12	1	0
+Acetothermia of depth 2 has size 14
+Anaerolineales of depth 3 has size 19
+Armatimonadetes of depth 1 has size 13
+Azambacteria of depth 3 has size 20
+Calescamantes of depth 2 has size 14
+Chlorogloeopsis of depth 3 has size 19
+Curtissbacteria of depth 3 has size 12
+Daviesbacteria of depth 3 has size 17
+Dermocarpella of depth 3 has size 16
+Dictyoglomales of depth 3 has size 10
+Dictyoglomi of depth 1 has size 10
+Dictyoglomia of depth 2 has size 10
+Falkowbacteria of depth 3 has size 10
+Gallionellales of depth 3 has size 16
+Gemmatimonadales of depth 3 has size 10
+Giovannonibacteria of depth 3 has size 16
+Gloeobacterales of depth 3 has size 11
+Gloeobacteria of depth 2 has size 11
+Gottesmanbacteria of depth 3 has size 18
+Gracilibacteria of depth 2 has size 12
+Kordiimonadales of depth 3 has size 18
+Ktedonobacterales of depth 3 has size 16
+Levybacteria of depth 3 has size 17
+Magasanikbacteria of depth 3 has size 17
+Magnetococcales of depth 3 has size 12
+Nanobacterium of depth 2 has size 15
+Natranaerobiales of depth 3 has size 11
+Nostochopsis of depth 3 has size 13
+Omnitrophica of depth 2 has size 11
+Orbales of depth 3 has size 10
+Parvularculales of depth 3 has size 12
+Peregrinibacteria of depth 2 has size 20
+Phycisphaerae of depth 2 has size 11
+Roizmanbacteria of depth 3 has size 14
+Rubrobacterales of depth 3 has size 20
+Sneathiellales of depth 3 has size 10
+Spartobacteria of depth 3 has size 18
+Stigonema of depth 3 has size 18
+Thermomicrobia of depth 2 has size 10
+Wolfebacteria of depth 3 has size 17
+Xenococcus of depth 3 has size 19
+Yanofskybacteria of depth 3 has size 17
+candidate_division_SR1 of depth 2 has size 12
+candidate_division_TM6 of depth 2 has size 17
+candidate_division_WS6 of depth 2 has size 20

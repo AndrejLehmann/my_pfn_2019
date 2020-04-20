@@ -1,0 +1,32 @@
+******** source ********
+     source          1..2487
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+                     /sex="male"
+                     /cell_line="HuS-L12"
+                     /cell_type="lung fibroblast"
+                     /dev_stage="embryo"
+******** gene ********
+     gene            229..2199
+                     /gene="PCCX1"
+******** CDS ********
+     CDS             229..2199
+                     /gene="PCCX1"
+                     /note="a nuclear protein carrying a PHD finger and a CXXC
+                     domain"
+                     /codon_start=1
+                     /product="protein containing CXXC domain 1"
+                     /protein_id="BAA96307.1"
+                     /db_xref="GI:8100075"
+                     /translation="MEGDGSDPEPPDAGEDSKSENGENAPIYCICRKPDINCFMIGCD
+                     NCNEWFHGDCIRITEKMAKAIREWYCRECREKDPKLEIRYRHKKSRERDGNERDSSEP
+                     RDEGGGRKRPVPDPDLQRRAGSGTGVGAMLARGSASPHKSSPQPLVATPSQHHQQQQQ
+                     QIKRSARMCGECEACRRTEDCGHCDFCRDMKKFGGPNKIRQKCRLRQCQLRARESYKY
+                     FPSSLSPVTPSESLPRPRRPLPTQQQPQPSQKLGRIREDEGAVASSTVKEPPEATATP
+                     EPLSDEDLPLDPDLYQDFCAGAFDDHGLPWMSDTEESPFLDPALRKRAVKVKHVKRRE
+                     KKSEKKKEERYKRHRQKQKHKDKWKHPERADAKDPASLPQCLGPGCVRPAQPSSKYCS
+                     DDCGMKLAANRIYEILPQRIQQWQQSPCIAEEHGKKLLERIRREQQSARTRLQEMERR
+                     FHELEAIILRAKQQAVREDEESNEGDSDDTDLQIFCVSCGHPINPRVALRHMERCYAK
+                     YESQTSFGSMYPTRIEGATRLFCDVYNPQSKTYCKRLQVLCPEHSRDPKVPADEVCGC
+                     PLVRDVFELTGDFCRLPKRQCNRHYCWEKLRRAEVDLERVRVWYKLDELFEQERNVRT
+                     AMTNRAGLLALMLHQTIQHDPLTTDLRSSADR"

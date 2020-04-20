@@ -1,0 +1,3 @@
+listofvectors_read	rmsd.py	/^def listofvectors_read(file_name):$/
+listofvectors_rmsd_print	rmsd.py	/^def listofvectors_rmsd_print(listofvectors):$/
+rmsd_evaluate	rmsd.py	/^def rmsd_evaluate(v_vector, w_vector):$/

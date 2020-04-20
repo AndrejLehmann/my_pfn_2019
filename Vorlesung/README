@@ -1,0 +1,22 @@
+topics.pdf ersetzt Folie 6 in python-slides.pdf
+syntaxerror.pdf ersetzt Folie 90-95 in python-slides.pdf
+stackframe.pdf ersetzt Folie 198 in python-slides.pdf
+somepath2exit_example.pdf Beispiel f"ur die Funktionsweise von Maze.somepath2exit
+num_int_speed_up.pdf ersetzt Folien 586-594 in python-slides.pdf
+
+Die folgenden Abschnitte von insgesamt 225 Vorlesungsfolien wurden 
+nicht behandelt. Material, dass nur auf diesen Seiten vermittelt wurde,
+ist damit auch nicht Gegenstand der Modulabschlusspr"ufung.
+
+Shortest paths in graphs and Dijkstra's algorithm, 275--324
+Storing sequences from a multiple fasta file, 340--350
+Mapping Restriction Enzymes, 351--365
+Sets and Multisets, 375--393
+Genbank, 394--423
+Taxonomy Trees, 424--450
+The XML Markup Language, 451--473
+Teile von 'Numpy: Numerics in Python',  619--668
+    in der letzten Vorlesung habe ich kurz "uber Mandelbrot-Mengen
+    gesprochen, aber wegen der K"urze der Zeit konnten diese nicht
+    vollst"andig behandelt werden. Daher sind sie Mandelbrot-Mengen
+    nicht Pr"ufungsgegenstand.

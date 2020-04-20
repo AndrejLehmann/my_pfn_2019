@@ -1,0 +1,20 @@
+(
+  A
+  Proteobacteria,
+  (
+    B
+    (
+      C
+      (
+        D
+        (
+          E
+          (
+            Brasilonema_bromeliae_SPC951
+          )Brasilonema_bromeliae
+        )Brasilonema,
+      )Scytonemataceae,
+      Nostocaceae
+    )Nostocales
+  )Cyanobacteria
+)Bacteria;

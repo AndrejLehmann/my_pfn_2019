@@ -1,0 +1,16 @@
+<Seq> 
+  <Seq_locus>AAU04286</Seq_locus>
+  <Seq_length>436</Seq_length>
+  <Seq_moltype>AA</Seq_moltype>
+  <Seq_topology>linear</Seq_topology>
+  <Seq_division>BCT</Seq_division>
+  <Seq_create-date>19-AUG-2004</Seq_create-date>
+  <Seq_definition>citrate (Si)-synthase; (R)-citric synthase.; Citrate
+                  condensing enzyme.;
+                  Citrate oxaloacetate-lyase, CoA-acetylating.; 
+                  Oxaloacetate transacetase. 
+                  [Rickettsia typhi str. Wilmington]</Seq_definition>
+  <Seq_source>Rickettsia typhi str. Wilmington</Seq_source> 
+  <Seq_organism>Rickettsia typhi str. Wilmington</Seq_organism> 
+  <Seq_sequence>aacactgtgaattaagagcctatcacaacgagccatactacg</Seq_sequence>
+</Seq>

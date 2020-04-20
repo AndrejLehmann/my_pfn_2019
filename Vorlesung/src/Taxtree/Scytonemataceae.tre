@@ -1,0 +1,24 @@
+(
+  (
+    Scytonema_sp.,
+    Scytonema_hofmanni,
+    Scytonema_hyalinum,
+    Scytonema_sp._U-3-3,
+    Scytonema_sp._IAM_M-262,
+    Scytonema_sp._PCC_7814,
+    Scytonema_sp._CCMEE5099,
+    Scytonema_sp._CCG1,
+    Scytonema_sp._DC-A,
+    Scytonema_sp._FGP-7A,
+    Scytonema_sp._NC-4B,
+    Scytonema_sp._NCC-4B
+  )Scytonema,
+  (
+    Scytonematopsis_sp._CCG44
+  )Scytonematopsis,
+  (
+    Brasilonema_bromeliae,
+    Brasilonema_sp._CENA_114,
+    Brasilonema_octagenarum
+  )Brasilonema
+)Scytonemataceae;

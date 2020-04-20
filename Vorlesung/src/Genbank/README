@@ -1,0 +1,23 @@
+set environment variable
+PYTHONPATH to
+path of ../lib
+
+For example, if this directory is at
+/home/joeuser/pbi/Genbank
+then add 
+setenv PYTHONPATH ${PYTHONPATH}:/home/joeuser/pbi/lib
+to your .tcshrc (if your Shell is the tcsh)
+or
+export PYTHONPATH=${PYTHONPATH}:/home/joeuser/pbi/lib
+
+Here is the list of files and their purpose.
+
+gb2fasta.py		get sequence from GB-file, output fasta
+gb2fields.py		get some annotation fields from GB-file
+gb2annseq.py		get annotation and sequence, use regexp
+splitGB.py		some useful functions to split genbank entry, use regexp
+searchGB.py		apply some searches to GB-library
+parseAnno.py		parse some annotations into a hash
+getAnno.py		get the annotation from first genbank record
+parseFeatures.py	parse the feature entries from feature table
+features.py		extract feature entries from GB-library

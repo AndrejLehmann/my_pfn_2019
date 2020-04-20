@@ -1,0 +1,18 @@
+% Author: Sivaram Neelakantan
+% from http://www.texample.net/tikz/examples/box-and-whisker-plot/
+\begin{tikzpicture}[thick]
+    \filldraw[fill=black!5] (2,0) rectangle (5,1);% draw the box
+    \draw (7,0.39) -- (7,0.61);% draw vertical tab
+    \draw (1,0.39) -- (1,0.61);% draw vertical tab
+    \node[below] at (8,0.7) {$o$}; % mild outlier on the right
+    \node[below] at (-1.4,0.7) {$o$}; % extreme outlier on the left
+    % Axis
+    \draw (-2.5,1.2) -- (8.5,1.2);
+    % Note that the snaked line is drawn to 11.1 to force
+    % TikZ to draw the final tick.
+    \draw[snake=ticks,segment length=1cm] (-2.5,1.2) -- (8.5,1.2);
+
+\draw[red] (3,0) -- (3,1);% draw the median
+    \draw (5,0.5) -- (7,0.5);% draw right whisker
+    \draw (2,0.5) -- (1,0.5);% draw left whisker
+\end{tikzpicture}

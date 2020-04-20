@@ -1,0 +1,38 @@
+\begin{forest}
+for tree={
+  grow=east,
+  parent anchor=south east,
+  child anchor=south west,
+  align=center,
+  font={\itshape\tiny},
+  l sep+=8pt,
+  s sep+=-2pt,
+  inner sep=0pt,
+  outer sep=0pt,
+  % path is based on Gonzalo Medina's answer
+  % ref: http://tex.stackexchange.com/questions/176591/typesetting-genealogical-trees/176649#176649
+  edge path={
+    \noexpand\path [draw, rounded corners=5pt, \forestoption{edge}] %
+                   (!u.parent anchor) [out=0, in=180] to (.child anchor)%
+    \forestoption{edge label} -- (.south east);},
+for root={
+  ellipse,
+  draw,
+  parent anchor=east,
+},
+}
+[B3
+  [B0
+    [L0]
+    [L1]
+  ]
+  [B1
+    [L2]
+  ]
+  [B2
+    [L3]
+    [L4]
+    [L5]
+  ]
+]
+\end{forest}

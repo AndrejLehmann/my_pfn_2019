@@ -1,0 +1,2 @@
+{\color{black!40}STATIONS_ID};{\color{black!90}MESS_DATUM}{\color{black!40};QN_3;  FX;  FM;QN_4; RSK;RSKF; SDK;SHK_TAG;  NM; VPM;  PM; {\color{black!90}TMK}; UPM; TXK; TNK; TGK;eor}
+       {\color{black!40}1975;}{\color{black!90}19360101;}{\color{black!40}-999;-999;-999;    5;   0.1;   1;-999;   0;   7.7;   8.5;  998.00;    {\color{black!90}7.3};   82.00;    8.8;    5.7;-999;eor}

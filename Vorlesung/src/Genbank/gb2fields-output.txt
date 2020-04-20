@@ -1,0 +1,8 @@
+*** LOCUS ***
+AB031069     2487 bp    mRNA            PRI       27-MAY-2000
+*** DEFINITION ***
+Homo sapiens PCCX1 mRNA for protein containing CXXC domain 1, complete cds.
+*** ACCESSION ***
+AB031069
+*** ORGANISM ***
+Homo sapiens

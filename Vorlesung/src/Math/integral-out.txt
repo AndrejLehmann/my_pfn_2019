@@ -1,0 +1,39 @@
+n =      10, integral(curvedM,0.0,4.0) = 10.151812
+n =     100, integral(curvedM,0.0,4.0) = 10.324944
+n =    1000, integral(curvedM,0.0,4.0) = 10.326215
+n =   10000, integral(curvedM,0.0,4.0) = 10.326228
+n =  100000, integral(curvedM,0.0,4.0) = 10.326228
+n =      10, integral(velocity,0.0,1.0) = 1.752043
+n =     100, integral(velocity,0.0,1.0) = 1.718622
+n =    1000, integral(velocity,0.0,1.0) = 1.718285
+n =   10000, integral(velocity,0.0,1.0) = 1.718282
+n =  100000, integral(velocity,0.0,1.0) = 1.718282
+numerical = 1.71828183 != 1.71828183 = expected
+method: approx_integral_trpz, integral(velocity,0.0,1.0):
+n =      10, numerical = 1.752043, diff=-3.38e-02
+n =     100, numerical = 1.718622, diff=-3.40e-04
+n =    1000, numerical = 1.718285, diff=-3.40e-06
+n =   10000, numerical = 1.718282, diff=-3.40e-08
+n =  100000, numerical = 1.718282, diff=-3.40e-10
+              expected = 1.718282
+method: approx_integral_mid, integral(velocity,0.0,1.0):
+n =      10, numerical = 1.701483, diff=1.68e-02
+n =     100, numerical = 1.718112, diff=1.70e-04
+n =    1000, numerical = 1.718280, diff=1.70e-06
+n =   10000, numerical = 1.718282, diff=1.70e-08
+n =  100000, numerical = 1.718282, diff=1.70e-10
+              expected = 1.718282
+method: np_approx_integral_mid, integral(np_velocity,0.0,1.0):
+n =      10, numerical = 1.701483, diff=1.68e-02
+n =     100, numerical = 1.718112, diff=1.70e-04
+n =    1000, numerical = 1.718280, diff=1.70e-06
+n =   10000, numerical = 1.718282, diff=1.70e-08
+n =  100000, numerical = 1.718282, diff=1.70e-10
+              expected = 1.718282
+method: np_approx_integral_trpz, integral(np_velocity,0.0,1.0):
+n =      10, numerical = 1.752043, diff=-3.38e-02
+n =     100, numerical = 1.718622, diff=-3.40e-04
+n =    1000, numerical = 1.718285, diff=-3.40e-06
+n =   10000, numerical = 1.718282, diff=-3.40e-08
+n =  100000, numerical = 1.718282, diff=-3.40e-10
+              expected = 1.718282

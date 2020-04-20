@@ -1,0 +1,4 @@
+# process Seq
+Seq_locus=AAU04286
+Seq_division=BCT
+Seq_sequence=aacactgtgaattaagagcctatcacaacgagccatactacg

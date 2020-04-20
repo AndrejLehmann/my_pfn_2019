@@ -1,0 +1,33 @@
+in pfn1_2019/Vorlesung/src
+findet man in verschiedenen Unterverzeichnissen den Python-code
+aus den Vorlesungsfolien. 
+
+In den meisten F"allen sind Testdaten in den jeweiligen Verzeichnissen
+verf"ugbar, so dass make test (falls ein goal test vorhanden ist)
+funktionieren sollte. Falls nicht Testdaten fehlen, bitte melden.
+
+In einige F"allen werden Module aus dem Verzeichnis lib
+importiert. Daher muss die Umgebungsvariable PYTHONPATH um
+das Verzeichnis lib erweitert werden. Das kann durch das Hinzuf"uge
+der Zeile:
+
+export PYTHONPATH="${PYTHONPATH}:<path_to_pfn_repositories>/Vorlesung/src/lib"
+
+zur Datei .bashrc erfolgen. F"ur <path_to_pfn_repositories> muss der
+entsprechende Pfad f"ur pfn1_2019 in Ihrem Verzeichnisbaum eingesetzt werden.
+
+Um herauszufinden, in welcher Datei sich
+der Source code aus einer bestimmten Folie befindet, benutzt man
+am Besten git grep.
+Beispiel: Um herauszufinden, wo die Klasse InteractivePlot2 implementiert
+und verwendet wird wechselt man in des src-Verzeichnis und ruft
+
+git grep InteractivePlot2
+
+auf und erh"alt die folgende Ausgabe:
+
+Spiralen/interactive_plot2.py:class InteractivePlot2:
+Spiralen/ispiral.py:from interactive_plot2 import InteractivePlot2
+Spiralen/ispiral.py:InteractivePlot2('Spiral','red',spiral_coords_args,sliders_spec)
+
+Stefan Kurtz

@@ -1,0 +1,28 @@
+%https://tex.stackexchange.com/questions/146556/golden-spiral-in-tikz-how-do-i-get-the-right-shape-and-background
+\documentclass{article}
+\usepackage{tikz}
+\begin{document}
+\thispagestyle{empty}
+\usetikzlibrary{calc}
+
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+
+\newcommand\GoldenRatio{1.6180339887}
+\newcommand\Side{10}
+\newcommand\Sqrtwo{1.4142135624}
+
+\begin{tikzpicture}[line cap=round]
+\coordinate (origin) at (0,0);
+\foreach \angle in {0,90,...,1000} {
+  \coordinate (corner) at ($(origin)+(45+\angle:\Side*\Sqrtwo)$);
+  \begin{pgfonlayer}{background}
+      \draw[help lines] (origin) rectangle (corner);
+  \end{pgfonlayer}
+  \draw[very thick,red] (origin) arc(\angle-90:\angle:\Side);
+  \coordinate (origin) at (corner);
+  \pgfmathsetmacro{\Side}{\Side/\GoldenRatio}
+  \xdef\Side{\Side}
+}
+\end{tikzpicture}
+\end{document}

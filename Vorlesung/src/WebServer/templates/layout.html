@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{% block title %}Rock Paper Scissors
+           {% endblock %}</title>
+    <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 15px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+           {% block content %}
+           {% endblock %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

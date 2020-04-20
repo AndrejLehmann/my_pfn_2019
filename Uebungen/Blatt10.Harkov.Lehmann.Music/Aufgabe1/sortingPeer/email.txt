@@ -1,0 +1,13 @@
+Gruppe: Tang, Quante, Lehmann, Scheele
+
+Die Besprechung des Skripts (Folien 325-332) verlief sehr gut. Wir sind die Folien
+zusammen durchgegangen und Tang hat uns dabei durchgefuehrt. Die BeispielCodes wurden
+durchgesprochen und es wurden spontan Fragen gestellt und gemeinsam besprochen.
+Eine der Fragen war zum Bespiel: Wie werden die Items sortiert die den gleichen
+ key-Wert haben? Die Loesung: Es wird die originale Reihenfolge beibehalten.
+Des Weiteren scheint die GruppenGroesse von 3-4 optimal zu sein. Die Vorbeireitung
+eines der GruppenMitglieder ist vor allem fuer den roten Faden in der Besprechung
+vom Vorteil.
+
+
+

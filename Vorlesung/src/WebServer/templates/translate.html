@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head><title>Translate DNA</title></head>
+<body><h2>Input a DNA sequence and translate it.</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <form method="GET">
+          <input name="seq" value="">
+          <input type="submit" value="translate">
+        </form>
+        {% if input_sequence != '' %}
+        <h1>{{ input_sequence }} => {{ output }}</h1>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</body>
+</html>

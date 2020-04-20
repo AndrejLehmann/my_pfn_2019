@@ -1,0 +1,30 @@
+*****movie*****
+title: Enemy Behind
+type: War, Thriller
+format: DVD
+year: 2003
+rating: PG
+stars: 10
+description: Talk about a US-Japan war
+*****movie*****
+title: Transformers
+type: Anime, Science Fiction
+format: DVD
+year: 1989
+rating: R
+stars: 8
+description: A schientific fiction
+*****movie*****
+title: Trigun
+type: Anime, Action
+format: DVD
+rating: PG
+stars: 10
+description: Vash the Stampede!
+*****movie*****
+title: Ishtar
+type: Comedy
+format: VHS
+rating: PG
+stars: 2
+description: Viewable boredom

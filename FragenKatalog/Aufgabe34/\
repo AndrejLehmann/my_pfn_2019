@@ -1,0 +1,23 @@
+class Distribution():
+
+    def __init__(self):
+        self.dic = {}
+
+    def add_single(self, k, v = 1):
+        if k in self.dic.keys():
+            self.dic[k] += v
+        else:
+            self.dic[k] = v
+
+    def __add__(self, dist):
+        for dist_key in dist.dic.keys():
+            if dist_key in self.dic.keys():
+
+
+
+
+    def __str__(self):
+        string = ''
+        for k in self.dic.keys():
+            string += '{} {}\n'.format(k, self.dic[k])
+        return string

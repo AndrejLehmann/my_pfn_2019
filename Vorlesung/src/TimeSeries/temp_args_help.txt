@@ -1,0 +1,13 @@
+usage: time_series.py [-h]
+                      (--std | --scatter | --hist | --boxp | --ysub | --year YEAR)
+
+plot time series
+
+optional arguments:
+  -h, --help   show this help message and exit
+  --std        standard plot
+  --scatter    show scatter plot
+  --hist       show histograms black dots for plot
+  --boxp       show boxplots for each year
+  --ysub       show subplots for each year
+  --year YEAR  show boxplots for month of the given year

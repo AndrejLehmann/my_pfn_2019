@@ -1,0 +1,10 @@
+Sequence found in record 0
+Annotation found in record 0
+Sequence found in record 1
+Annotation found in record 1
+Sequence found in record 2
+Annotation found in record 2
+Sequence found in record 3
+Annotation found in record 3
+Sequence found in record 4
+Annotation found in record 4

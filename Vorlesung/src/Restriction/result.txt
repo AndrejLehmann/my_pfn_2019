@@ -1,0 +1,2 @@
+AccI=GTMKAC occurs at pos 876
+Afl83II=GGCC occurs at pos 323, 455

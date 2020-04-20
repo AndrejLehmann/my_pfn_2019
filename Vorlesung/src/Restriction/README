@@ -1,0 +1,23 @@
+This directory contains files to implement a program
+that two files as input:
+- a  file Ath.fna which contains a DNA sequence, and 
+- a file REBASE.txt taken from 
+  ftp://ftp.neb.com/pub/rebase/bionet.301
+  containing description Restriction fragments.
+The program parses both files and asks the user for a name of 
+a restriction fragment. If the name is valid, then the regexp
+corresponding to the fragment is search for in the DNA sequence,
+and all matching positions are reported.
+
+The program relies on code in ../lib which can be accessed
+via the option -I, see run.sh
+
+README:		this file
+REBASE.txt:		the file containing the restriction enzymes
+parseREBASE.py:	a perl module containing functions to parse REBASE.txt
+restriction.py:		the main program which puts all together.
+run.sh:		a shell script running perl with the appropriate options
+Ath.fna:	the DNA sequence file
+
+The code is adapted from the following Book:
+Beginning Perl for Bioinformatics, James Tisdall, O'Reilly, 2001
